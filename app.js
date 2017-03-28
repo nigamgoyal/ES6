@@ -58,3 +58,17 @@ greet('Hello');
 
 const API_KEY = 'xxxx'; // read only unable to redefined
 const PI = 3.14; // read only unable to redefined
+
+// Shorthand properties
+
+let firstName = 'Nigam';
+let lastName = 'Goyal';
+
+let person = {firstName,lastName};
+//console.log(person); // { firstName: 'Nigam', lastName: 'Goyal' }
+
+let mascot = person;
+
+let team = {person,mascot};
+
+console.log(team);
