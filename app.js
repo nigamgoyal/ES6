@@ -52,3 +52,9 @@ function greet(greeting,name ='Nigam'){
 }
 
 greet('Hello');
+
+
+// Const
+
+const API_KEY = 'xxxx'; // read only unable to redefined
+const PI = 3.14; // read only unable to redefined
