@@ -72,3 +72,20 @@ let mascot = person;
 let team = {person,mascot};
 
 console.log(team);
+
+// Spread operator
+
+let first = [1,2,3,7,8,9];
+
+let second = [4,5,6];
+console.log(...first);
+first.push(...second);
+
+console.log(first);
+
+function addThreeThings(a,b,c){
+    let result = a+b+c;
+    console.log(result)
+}
+
+addThreeThings(...first);
