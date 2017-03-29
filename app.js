@@ -89,3 +89,11 @@ function addThreeThings(a,b,c){
 }
 
 addThreeThings(...first);
+
+
+
+// use Template literal
+let name = 'Nigam';
+let intro = `My name is ${name}`;
+
+console.log(intro);
